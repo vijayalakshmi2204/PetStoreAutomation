@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-04-10T16:53:08 GMT-07:00" name="PetSuite" finished-at="2025-04-10T16:53:20 GMT-07:00" duration-ms="11216">
+    <groups>
+    </groups>
+    <test started-at="2025-04-10T16:53:08 GMT-07:00" name="PetTest" finished-at="2025-04-10T16:53:20 GMT-07:00" duration-ms="11216">
+      <class name="api.test.UserTests2">
+        <test-method is-config="true" signature="setup()[pri:0, instance:api.test.UserTests2@6f10d5b6]" started-at="2025-04-10T16:53:09 GMT-07:00" name="setup" finished-at="2025-04-10T16:53:11 GMT-07:00" duration-ms="2282" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="createUser_test()[pri:1, instance:api.test.UserTests2@6f10d5b6]" started-at="2025-04-10T16:53:11 GMT-07:00" name="createUser_test" finished-at="2025-04-10T16:53:16 GMT-07:00" duration-ms="5497" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUser_test -->
+        <test-method signature="getUser_test()[pri:2, instance:api.test.UserTests2@6f10d5b6]" started-at="2025-04-10T16:53:16 GMT-07:00" name="getUser_test" finished-at="2025-04-10T16:53:19 GMT-07:00" depends-on-methods="api.test.UserTests2.createUser_test" duration-ms="2087" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser_test -->
+        <test-method signature="updateUser_test()[pri:3, instance:api.test.UserTests2@6f10d5b6]" started-at="2025-04-10T16:53:19 GMT-07:00" name="updateUser_test" finished-at="2025-04-10T16:53:19 GMT-07:00" depends-on-methods="api.test.UserTests2.createUser_test" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- updateUser_test -->
+        <test-method signature="deleteUser_test()[pri:4, instance:api.test.UserTests2@6f10d5b6]" started-at="2025-04-10T16:53:19 GMT-07:00" name="deleteUser_test" finished-at="2025-04-10T16:53:20 GMT-07:00" duration-ms="476" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteUser_test -->
+      </class> <!-- api.test.UserTests2 -->
+    </test> <!-- PetTest -->
+  </suite> <!-- PetSuite -->
+</testng-results>
