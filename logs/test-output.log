@@ -28,3 +28,9 @@
 2025-04-10 16:53:19 INFO  UserTests2:85 - ***********  Displaying User information ************
 2025-04-10 16:53:19 INFO  UserTests2:95 - ***********  Updating User Information   ************
 2025-04-10 16:53:19 INFO  UserTests2:103 - ***********   User Information is updated  ************
+2025-04-12 21:30:53 INFO  UserTests2:49 - ***********  Creating User   ************
+2025-04-12 21:30:57 INFO  UserTests2:56 - ***********  User is created   ************
+2025-04-12 21:30:57 INFO  UserTests2:63 - ***********  getting User  information  ************
+2025-04-12 21:31:01 INFO  UserTests2:85 - ***********  Displaying User information ************
+2025-04-12 21:31:01 INFO  UserTests2:95 - ***********  Updating User Information   ************
+2025-04-12 21:31:02 INFO  UserTests2:103 - ***********   User Information is updated  ************
